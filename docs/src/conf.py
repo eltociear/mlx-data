@@ -4,14 +4,15 @@
 
 import os
 import subprocess
+import mlx.data
 
 # -- Project information -----------------------------------------------------
 
 project = "MLX Data"
 copyright = "2023, MLX Contributors"
 author = "MLX Contributors"
-version = "0.0.0"
-release = "0.0.0"
+version = mlx.data.__version__
+release = mlx.data.__version__
 
 # -- General configuration ---------------------------------------------------
 
@@ -41,7 +42,7 @@ html_theme = "sphinx_book_theme"
 
 html_theme_options = {
     "show_toc_level": 2,
-    "repository_url": "https://github.com/ml-explore/mlx",
+    "repository_url": "https://github.com/ml-explore/mlx-data",
     "use_repository_button": True,
     "navigation_with_keys": False,
 }
